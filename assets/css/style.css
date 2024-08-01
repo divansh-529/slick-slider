@@ -15,6 +15,7 @@
 .ml-20 {
     margin-left: 20px;
 }
+
 .mt-20 {
     margin-top: 20px;
 }
@@ -37,6 +38,8 @@
 }
 
 .card-slick {
+    margin-left: 25px;
+    margin-right: 25px;
     max-width: 400px;
     height: 250px;
     border-radius: 10px;
@@ -48,11 +51,15 @@
     height: 50px;
 }
 
+.gap-5ty {
+    gap: 50px;
+}
+
 .name-of-profile-pic-sec-one {
     font-family: var(--ff-rubik);
     font-size: var(--fs--18);
     font-weight: var(--fw--500);
-    
+
     text-align: center;
 }
 
@@ -60,7 +67,7 @@
     font-family: var(--ff-rubik);
     font-size: var(--fs--14);
     font-weight: var(--fw--400);
-   
+
     color: var(--c-light-grey);
 }
 
@@ -81,4 +88,52 @@
     line-height: var(--lh--30);
     text-align: left;
     color: var(--c-blue-black);
+}
+
+.slick-dots {
+    width: 15px;
+    height: 15px;
+    color: #DDE0E4;
+    display: flex;
+}
+
+.slick-dots li.slick-active button:before {
+    width: 45px;
+    height: 15px;
+    border-radius: 26px;
+    background: #F53838;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.prev {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #F53838;
+    transition: all .5s linear;
+}
+.prev:hover{
+    background: #F53838;
+}
+.prev:hover svg path {
+    fill: white;
+
+}
+.next {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #F53838;
+    transition: all .5s linear;
+}
+.next:hover {
+    background: #F53838;
+}
+
+.next:hover svg path {
+    fill: white;
+
 }
