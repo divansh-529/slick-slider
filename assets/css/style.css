@@ -187,3 +187,217 @@
 .pb-100 {
     padding-bottom: 100px;
 }
+
+
+/* ------------------------section two ------------------------ */
+.first-imge-card {
+    /* max-width: 367px; */
+    width: 100%;
+    max-height: 476px;
+    height: 100%;
+    top: 106px;
+    gap: 0px;
+    border-radius: 13px;
+    opacity: 0px;
+    background: #1219d233;
+    border: 1px solid transparent;
+}
+
+.ceo {
+    border-radius: 13px;
+}
+
+.slider-box {
+    background-color: #140d1b;
+    min-height: 100vh;
+}
+
+.shadow-one {
+    top: 0;
+    right: 0;
+}
+
+.shadow-two {
+    bottom: 0;
+    left: 0;
+}
+
+.satrs {
+    left: 0;
+    bottom: 12%;
+}
+
+.items-slider {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    background-color: white;
+}
+
+.card-user-name {
+    font-family: "sanfont-family: Sans Serif Collection";
+    font-size: var(--fs--24);
+    font-weight: var(--fw--400);
+    line-height: 36px;
+    text-align: left;
+    color: var(--dark-white);
+    padding-left: 12px;
+    margin-bottom: 0;
+    padding-top: 12px;
+}
+
+.card-user-post {
+    font-family: "poppins: Sans Serif Collection";
+    font-size: var(--fs--16);
+    font-weight: var(--fw--400);
+    line-height: 36px;
+    text-align: left;
+    color: var(--dark-white);
+    opacity: 80%;
+    padding-left: 12px;
+}
+
+.Team-heading {
+    font-family: "Sans Serif Collection";
+    font-size: var(--fs--48);
+    font-weight: var(--fw--400);
+    line-height: 56.4px;
+    color: #ffffff;
+}
+
+.slider-box .slick-dotted.slick-slider {
+    margin-bottom: 30px;
+    z-index: 5;
+}
+
+.slider-box .slick-dots {
+    bottom: -90px;
+
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    position: absolute;
+    left: 0;
+}
+
+.slider-box .slick-dots li button:before {
+    opacity: 0 !important;
+}
+
+.slider-box .slick-track {
+    display: flex !important;
+    gap: 50px !important;
+}
+
+.slider-box .slick-dots li {
+    transition: 0.3s !important;
+}
+
+.slider-box .slick-dots li {
+    width: 28px;
+    height: 12px;
+    gap: 0px;
+    border-radius: 21px;
+    background-color: white;
+    opacity: 0px;
+}
+
+.slider-box .slick-dots .slick-active {
+    background-color: darkblue;
+    width: 59px;
+    height: 12px;
+    border-radius: 21px;
+}
+
+.slick-slider-parent {
+    width: 1140px !important;
+}
+
+.slider-box .slick-dots li button:before {
+    font-family: "slick";
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: "•";
+    text-align: center;
+    opacity: 0.25;
+    color: transparent !important;
+}
+
+.slick-next:before {
+    display: none;
+}
+
+.slick-prev:before {
+    display: none;
+}
+
+.shadow-one {
+    width: 331px;
+    height: 331px;
+}
+
+.shadow-two {
+    width: 331px;
+    height: 331px;
+}
+
+.pb-100 {
+    padding-bottom: 100px;
+}
+
+.slider-box-two-sec2 {
+    width: 946px;
+    height: 253px;
+    top: 303px;
+    left: 247px;
+    gap: 0px;
+    border-radius: 20px;
+    opacity: 0px;
+    background: #0389ff1f;
+}
+
+.center-shadow {
+    top: 58%;
+    left: 45%;
+    transform: translate(-58%, -45%);
+}
+
+.second-slider {
+    background: #020d15;
+    min-height: 100vh;
+}
+
+.box-text {
+    font-family: Plus Jakarta Sans;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #fbfdff;
+}
+
+.box-last-text {
+    font-family: Plus Jakarta Sans;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 19.6px;
+    text-align: center;
+    color: #fbfdff;
+}
+
+.pl-pr-430 {
+    padding-left: 430px;
+    padding-right: 430px;
+}
+.first-imge-card :active{
+    box-shadow: 0px 4px 26px 0px #1219D226;
+    border: 1px solid #1219D2;
+}
