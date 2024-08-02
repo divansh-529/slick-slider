@@ -2,6 +2,8 @@ $('.cards-parent-section-one').slick({
   dots: true,
   infinite: true,
   speed: 300,
+  nextArrow:".next",
+   prevArrow:".prev",
   slidesToShow: 3,
   slidesToScroll: 1,
   responsive: [

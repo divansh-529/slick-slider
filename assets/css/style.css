@@ -8,6 +8,10 @@
     max-width: 555px;
 }
 
+.mr-twosix {
+    margin-right: 26px;
+}
+
 .p-30 {
     padding: 30px;
 }
@@ -18,6 +22,10 @@
 
 .mt-20 {
     margin-top: 20px;
+}
+
+.mb-sixty {
+    margin-bottom: 60px;
 }
 
 .heading-of-section-one {
@@ -45,7 +53,9 @@
     border-radius: 10px;
     border: 2px solid #DDDDDD;
 }
-
+.card-slick:hover{
+    border: 2px solid #F53838;
+}
 .profile-pic-sec-one {
     width: 50px;
     height: 50px;
@@ -88,19 +98,53 @@
     color: var(--c-blue-black);
 }
 
-.slick-dots {
-    width: 15px;
-    height: 15px;
-    color: #DDE0E4;
-    display: flex;
+.mt-60 {
+    margin-top: 60px;
 }
 
-.slick-dots li.slick-active button:before {
-    width: 45px;
-    height: 15px;
-    border-radius: 26px;
-    background: #F53838;
+.slick-dots li button:before {
+    opacity: 0 !important;
 }
+
+.slick-dots li {
+    transition: 0.3s !important;
+}
+
+.slick-dots {
+    right: 41% !important;
+    bottom: -27% !important;
+}
+
+.slick-dots li {
+    background-color: #dde0e4;
+    border-radius: 50%;
+}
+
+.slick-dots .slick-active {
+    width: 45px;
+    background-color: #F53838;
+    border-radius: 10px;
+}
+
+
+
+.slick-dots li button:before {
+    margin-top: 42px;
+
+    font-family: "slick";
+    font-size: 6px;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    content: "•";
+    text-align: center;
+    opacity: 0.25;
+    color: transparent !important;
+}
+
 
 .cursor-pointer {
     cursor: pointer;
@@ -113,13 +157,16 @@
     border: 2px solid #F53838;
     transition: all .5s linear;
 }
-.prev:hover{
+
+.prev:hover {
     background: #F53838;
 }
+
 .prev:hover svg path {
     fill: white;
 
 }
+
 .next {
     width: 60px;
     height: 60px;
@@ -127,6 +174,7 @@
     border: 2px solid #F53838;
     transition: all .5s linear;
 }
+
 .next:hover {
     background: #F53838;
 }
@@ -134,4 +182,8 @@
 .next:hover svg path {
     fill: white;
 
+}
+
+.pb-100 {
+    padding-bottom: 100px;
 }
